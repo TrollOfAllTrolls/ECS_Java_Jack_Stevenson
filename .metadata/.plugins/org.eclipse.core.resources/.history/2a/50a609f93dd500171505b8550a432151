@@ -1,0 +1,32 @@
+
+public class YourInitials {
+	public static void main(String[] args) {
+		System.out.println("J J J J J");
+		System.out.println("    J    ");
+		System.out.println("    J    ");
+		System.out.println("    J    ");
+		System.out.println("J   J    ");
+		System.out.println("J   J    ");
+		System.out.println("J J J    ");
+		
+		System.out.println("");
+		
+		System.out.println("P P P P  ");
+		System.out.println("P       P");
+		System.out.println("P       P");
+		System.out.println("P P P P  ");
+		System.out.println("P        ");
+		System.out.println("P        ");
+		System.out.println("P        ");
+		
+		System.out.println("");
+		
+		System.out.println("  S S S  ");
+		System.out.println("S       S");
+		System.out.println("S        ");
+		System.out.println("  S S S  ");
+		System.out.println("        S");
+		System.out.println("S       S");
+		System.out.println("  S S S  ");
+	}
+}
