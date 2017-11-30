@@ -1,0 +1,22 @@
+
+public class MoreVariablesAndPrinting {
+	public static void main(String[] args) {
+		String myName, myEyes, myTeeth, myHair;
+		int myAge, myHeight, myWeight;
+		
+		myName = "Jack P. Stevenson";
+		myAge = 14;
+		myHeight = 67;
+		myWeight = 128;
+		myEyes = "Blue";
+		myTeeth = "Light yellow";
+		myHair = "Blonde";
+		
+		System.out.println("Let's talk about " + myName + ".");
+		System.out.println("He is " + myHeight + " inches tall.");
+		System.out.println("He weighs " + myWeight + " pounds.");
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+}
