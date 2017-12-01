@@ -1,0 +1,22 @@
+package KeyboardInputs;
+
+import java.util.Scanner;
+
+public class FirstKeyboardInput {
+	public static void main(String[] args) {
+		Scanner keys = new Scanner(System.in);
+		
+		String name;
+		int age, height, inches;
+		double weight;
+		
+		System.out.println("What is your name? ");
+		name = keys.next();
+		
+		System.out.println("How old are you? ");
+		age = keys.nextInt();
+		
+		System.out.println("How tall are you (In feet)? ");
+		height = keys.nextInt();
+	}
+}
