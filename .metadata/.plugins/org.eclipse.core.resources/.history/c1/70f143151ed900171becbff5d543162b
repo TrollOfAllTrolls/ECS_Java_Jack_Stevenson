@@ -1,0 +1,28 @@
+package SelectionStructures;
+
+import java.util.Scanner;
+
+public class SpaceBoxing {
+	public static void main(String[] args) {
+		Scanner keys = new Scanner(System.in);
+		int weight;
+		String planet;
+		
+		System.out.print("Please enter your current weight: ");
+		
+		weight = keys.nextInt();
+		
+		System.out.println("I have info on these planets:");
+		System.out.println("Venus  | Mars   | Jupiter");
+		System.out.println("Saturn | Uranus | Neptune");
+		System.out.println();
+		
+		System.out.print("Which planet are you visiting? ");
+		
+		planet = keys.next();
+		
+		if(){
+			
+		}
+	}
+}

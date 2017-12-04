@@ -1,0 +1,22 @@
+package SelectionStructures;
+
+import java.util.Scanner;
+
+public class ALittleQuiz {
+	public static void main(String[] args) {
+		Scanner keys = new Scanner(System.in);
+		int score = 0;
+		
+		System.out.println("Q1) What is the the best robotics team in the world?");
+		System.out.println("      1) Aluminum Narwhals");
+		System.out.println("      2) Some other team");
+		System.out.println("      3) Robotics suck! Why would I like any of the teams?");
+		
+		System.out.println();
+		System.out.print(">");
+		
+		if(keys.nextInt() == 1){
+			
+		}
+	}
+}
