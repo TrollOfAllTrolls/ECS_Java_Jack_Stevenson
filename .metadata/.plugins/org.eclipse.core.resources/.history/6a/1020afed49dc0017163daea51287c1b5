@@ -1,0 +1,15 @@
+package CustomMethods;
+
+import java.util.Scanner;
+
+public class BabyCalc {
+	public static void main(String[] args) {
+		Scanner keys = new Scanner(System.in);
+		
+		System.out.println("Give me a math procedure: ");
+		String num1 = keys.next();
+		String opp = keys.next();
+		String num2 = keys.next();
+		System.out.println();
+	}
+}

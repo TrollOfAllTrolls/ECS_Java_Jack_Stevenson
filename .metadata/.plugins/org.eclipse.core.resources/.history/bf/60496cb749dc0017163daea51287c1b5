@@ -1,0 +1,7 @@
+package CustomMethods;
+
+public class BabyCalc {
+	public static void main(String[] args) {
+		Scanner keys = new Scanner(System.in);
+	}
+}

@@ -1,0 +1,12 @@
+package CustomMethods;
+
+public class DistanceFormula {
+	public static void main(String[] args) {
+		double dl = distance(-2, 1, 1, 5);
+		System.out.println(dl);
+	}
+
+	public static double distance(int x1, int y1, int x2, int y2) {
+		return Math.sqrt(((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1)));
+	}
+}

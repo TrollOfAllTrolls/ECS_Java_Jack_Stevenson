@@ -1,0 +1,18 @@
+package CustomMethods;
+
+import java.util.Scanner;
+
+public class MethodPass {
+	public static void main(String[] args) {
+		Scanner keys = new Scanner(System.in);
+		customMethod(keys.nextInt());
+	}
+
+	private static void customMethod(int nextInt) {
+		if(nextInt%3 == 0)
+			System.out.println("That's a good number!");
+		else
+			System.out.println("That's a bad number!");
+		
+	}
+}

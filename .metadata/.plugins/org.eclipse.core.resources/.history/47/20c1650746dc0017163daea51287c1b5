@@ -1,0 +1,31 @@
+package CustomMethods;
+
+import java.util.Scanner;
+
+public class AreaCalculator {
+
+	static Scanner keys = new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("What shape?");
+		System.out.println("1) Triangle");
+		System.out.println("2) Rectangle");
+		System.out.println("3) Square");
+		System.out.println("4) Circle");
+		System.out.print("> ");
+		selectShape(keys.next());
+	}
+
+	public static void selectShape(String shape) {
+		if(shape.equalsIgnoreCase("Triangle"))
+			triangle();
+		else
+	}
+	public static int triangle(){
+		System.out.print("Base: ");
+		int base = keys.nextInt();
+		System.out.print("Height: ");
+		int height = keys.nextInt();
+		System.out.println();
+		return (base/2)*height;
+	}
+}

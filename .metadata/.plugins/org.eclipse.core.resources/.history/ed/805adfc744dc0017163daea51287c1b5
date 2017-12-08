@@ -1,0 +1,18 @@
+package CustomMethods;
+
+public class DistanceFormula {
+	public static void main(String[] args) {
+		double d1 = distance(-2, 1, 1, 5);
+		System.out.println(d1);
+		double d2 = distance(-2, 1, 1, 5);
+		System.out.println(d2);
+		double d3 = distance(-2, 1, 1, 5);
+		System.out.println(d3);
+		double d4 = distance(-2, 1, 1, 5);
+		System.out.println(d4);
+	}
+
+	public static double distance(int x1, int y1, int x2, int y2) {
+		return Math.sqrt(((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1)));
+	}
+}
