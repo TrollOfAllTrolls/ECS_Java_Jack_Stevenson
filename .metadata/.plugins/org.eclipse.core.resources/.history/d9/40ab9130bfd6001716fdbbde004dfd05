@@ -1,9 +1,0 @@
-import java.util.Scanner;
-
-package KeyboardInputs;
-
-public class FirstKeyboardInput {
-	public static void main(String[] args) {
-		
-	}
-}

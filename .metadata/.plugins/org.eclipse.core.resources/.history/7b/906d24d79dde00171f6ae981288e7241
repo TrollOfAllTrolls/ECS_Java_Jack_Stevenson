@@ -1,0 +1,31 @@
+package CustomMethods;
+
+import java.util.Scanner;
+
+public class Keychains {
+	public static void main(String[] args) {
+		Scanner keys = new Scanner(System.in);
+		System.out.println("Keychains for Sale!");
+		System.out.println();
+		int input, keychains = 0;
+		do{
+			System.out.println();
+			System.out.println("1. Add Keychains to Order");
+			System.out.println("2. Remove Keychains from Order");
+			System.out.println("3. View Current Order");
+			System.out.println("4. Checkout");
+			System.out.println();
+			System.out.print("> ");
+			input = keys.nextInt();
+			if(input == 1)
+				keychains += addKeys();
+		} while(input != 4);
+	}
+
+	private static void addKeys() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+

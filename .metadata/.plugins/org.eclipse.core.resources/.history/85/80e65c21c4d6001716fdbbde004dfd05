@@ -1,9 +1,0 @@
-package KeyboardInputs;
-
-import java.util.Scanner;
-
-public class DumbCalculator {
-	public static void main(String[] args) {
-		Scanner keys = new Scanner(System.in);
-	}
-}

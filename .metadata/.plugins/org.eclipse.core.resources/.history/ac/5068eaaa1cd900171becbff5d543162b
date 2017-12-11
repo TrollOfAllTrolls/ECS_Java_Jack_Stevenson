@@ -1,9 +1,0 @@
-package SelectionStructures;
-
-import javax.swing.JOptionPane;
-
-public class HowOldSpecifically {
-	public static void main(String[] args) {
-		int age = Integer.parseInt(JOptionPane.showInputDialog("How old are you?"));
-	}
-}
