@@ -8,7 +8,7 @@ public class KeepGuessingCounter {
 		Scanner keys = new Scanner (System.in);
 		Random rng = new Random();
 		int randNum = rng.nextInt(10) + 1;
-		int count = 1;
+		int count = 0;
 		
 		System.out.print("I have generated a random number. Try to guess it: ");
 		
